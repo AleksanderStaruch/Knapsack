@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class Exe {
 
     private int l;
@@ -21,14 +18,6 @@ public class Exe {
     }
 
     public void play(){
-        /**
-         * 0
-         * 00
-         * 000
-         * 0000
-         * 00000
-         * 000000
-         */
         String[] tab=new String[l];
         for(int i=0;i<l;i++){
             StringBuilder tmp=new StringBuilder();
