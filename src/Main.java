@@ -10,8 +10,8 @@ public class Main {
         int l=26;
         int capacity=40;
 
-        Exe exe=new Exe(values,weights,l,capacity);
-        exe.play();
+        Solver solver =new Solver(values,weights,l,capacity);
+        solver.play();
 
         //timer stop
         long stopTime = System.currentTimeMillis();

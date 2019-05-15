@@ -1,10 +1,10 @@
-public class Exe {
+public class Solver {
 
     private int l;
     private int capacity;
     private Item[] items;
 
-    public Exe(String values, String weights, int l, int capacity) {
+    public Solver(String values, String weights, int l, int capacity) {
         this.l = l;
         this.capacity = capacity;
 
